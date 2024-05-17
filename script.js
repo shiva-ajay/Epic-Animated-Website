@@ -59,7 +59,7 @@ document.querySelector("#ftext button")
 .addEventListener("mouseover", function(){
   gsap.to("#future video", {
     opacity: 1,
-    duration: 1.5,
+    duration: 1,
     ease: Power4
   })
 })
@@ -68,7 +68,7 @@ document.querySelector("#ftext button")
 .addEventListener("mouseleave", function(){
   gsap.to("#future video", {
     opacity: 0,
-    duration: 1.5,
+    duration: 1,
     ease: Power4
   })
 })
